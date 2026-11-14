@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "presentation.html",
+    "href": "presentation.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n\n\n\n\n\n\n\n\n\n\nData Visualization - The California Housing Market\n\n\n\n\n\n\n\n\n\nNov 13, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "About.html",
+    "href": "About.html",
+    "title": "About",
+    "section": "",
+    "text": "Lifted David is a sophomore studying industrial engineering. He’s curious about how systems, processes, and people work together, and he wants to use engineering to make things run better for the people who depend on them. He’s focused on building a strong technical foundation while looking for chances to apply what he learns in ways that help others. He’s eager to learn, collaborate, and grow into an engineer who solves practical problems."
+  },
+  {
+    "objectID": "projects/Data Visualization/index.html",
+    "href": "projects/Data Visualization/index.html",
+    "title": "Data Visualization - The California Housing Market",
+    "section": "",
+    "text": "Team Members - Caleb Duncan - Eleanor Suttle - Anthony White - Melany Chavez - Lifted David\nFor this project, our team utilized data from Zillow about the California housing market. We primarily looked at average days on the market, median sale prices over time, average listing prices, median mortgage rate, and median house prices across California.\nHow did median home sale prices change in California before, during, and after the COVID-19 pandemic?\nWhy this question is interesting: We all know that Covid had an impact on the housing market, but for those of us who were not in a place to worry about buying or selling a house for whatever reason during this time, it may be difficult to fully understand the impact that Covid had. Answering this question gives us a concrete visual of how California housing prices were affected by Covid.\nExcel Analysis: Describe the specific Excel tools, functions, pivot tables, or formulas your team used to analyze the data and answer this question\nVisual Development: Our team created an assertion-evidence slide that features the histogram that was created to answer this question, and the assertion statement in the heading. . Assertion-Evidence Slide: image of corresponding slideshow page\nWhich California cities have the highest average listing prices?\nWhy this question is interesting: A state as large as California has hundreds cities with varying populations and geographical characteristics. This question helps us look into how different factors affect housing prices, and allows us to compare these affects to other parts of the United States.\nExcel Analysis: Our team created an assertion-evidence slide that features the bar-chart that was created to answer this question, and the assertion statement in the heading.\nVisual Development: Describe how your team developed the visual for this slide\nAssertion-Evidence Slide: image of corresponding slideshow page\nHow are housing days on market distributed across individual property listings?\nWhy this question is interesting: Explain why this question is interesting to you.\nExcel Analysis: Describe how your team used Excel to answer this question\nVisual Development: Our team created an assertion-evidence slide that features the times series graph that was created to answer this question, and the assertion statement in the heading.\nAssertion-Evidence Slide: image of corresponding slideshow page\nWhat relationship exists between mortgage interest rates for single-family homes with a 20% down payment and median single-family home prices across California cities?\nWhy this question is interesting: This question showcases how expensive it is/ would be to buy a house in California, and even if you aren’t planning to move, it still provides some perspective on the cost of living in other areas, like Fayetteville, and a general idea of how mortgage price and house price might be correlated elsewhere.\nExcel Analysis: To answer this question, we uploaded the relevant data into an excel workbook, and used that data to create a dual-axis scatter plot showing how median mortgage rate and median house price relate to eachother across 26 different cities in California. Each Y-axis was then re-formatted to make the data easily readable.\nVisual Development: Our team created an assertion-evidence slide that features the scatter-plot that was created to answer this question, and the assertion statement in the heading."
+  },
+  {
+    "objectID": "projects/Data Visualization/index.html#assertion-evidence-slide-image-of-corresponding-slideshow-page",
+    "href": "projects/Data Visualization/index.html#assertion-evidence-slide-image-of-corresponding-slideshow-page",
+    "title": "Data Visualization - The California Housing Market",
+    "section": "Assertion-Evidence Slide: image of corresponding slideshow page",
+    "text": "Assertion-Evidence Slide: image of corresponding slideshow page"
+  }
+]

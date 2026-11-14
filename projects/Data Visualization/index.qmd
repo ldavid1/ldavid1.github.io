@@ -1,7 +1,7 @@
 ---
 title: "Data Visualization - The California Housing Market"
-date: “2026-11-13”
-image: Space Launches FINAL_page-1.jpg
+date: 2026-11-13
+image: (*insert cover image jpg here*)
 lightbox: true
 format: html
 ---
@@ -46,4 +46,4 @@ Excel Analysis: To answer this question, we uploaded the relevant data into an e
 
 Visual Development: Our team created an assertion-evidence slide that features the scatter-plot that was created to answer this question, and the assertion statement in the heading.
 
-## Assertion-Evidence Slide: image of corresponding slideshow page 
+## Assertion-Evidence Slide: image of corresponding slideshow page

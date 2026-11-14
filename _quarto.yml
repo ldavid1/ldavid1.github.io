@@ -3,12 +3,12 @@ project:
   output-dir: docs
   
 website:
-  title: "quarto blog"
+  title: "E-Portfolio"
   
   navbar:
     right:
     - text: About
-      href: index.qmd
+      href: About.qmd
     - icon: github
       href: https://github.com/
     - icon: bluesky

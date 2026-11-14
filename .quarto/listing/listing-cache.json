@@ -1,7 +1,11 @@
 {
   "listingMap": {
     "projects.qmd": [
-      "B3049D40"
+      "B3049D40",
+      "projects"
+    ],
+    "presentation.qmd": [
+      "projects"
     ]
   }
 }

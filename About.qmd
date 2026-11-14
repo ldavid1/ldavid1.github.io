@@ -1,0 +1,18 @@
+---
+title: "About"
+image: Headshot.jpg
+about: 
+  template: jolla
+  links:
+  - icon: bluesky
+    text: Bluesky
+    href: https://bsky.app/
+  - icon: linkedin
+    text: LinkedIn
+    href: https://linkedin.com
+  - icon: github
+    text: Github
+    href: https://github.com
+---
+
+Lifted David is a sophomore studying industrial engineering. He’s curious about how systems, processes, and people work together, and he wants to use engineering to make things run better for the people who depend on them. He’s focused on building a strong technical foundation while looking for chances to apply what he learns in ways that help others. He’s eager to learn, collaborate, and grow into an engineer who solves practical problems.

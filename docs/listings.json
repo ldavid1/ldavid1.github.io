@@ -2,8 +2,13 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/index.html",
-      "/resume.html"
+      "/projects/Data Visualization/index.html"
+    ]
+  },
+  {
+    "listing": "/presentation.html",
+    "items": [
+      "/projects/Data Visualization/index.html"
     ]
   }
 ]
