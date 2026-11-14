@@ -44,6 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -170,8 +173,13 @@ A state as large as California has hundreds cities with varying populations and 
 To make this bar-chart, we started by creating a pivot table of the average listing prices across America. Then, state name and region name were set as the rows, and average listing price from 8/31/2026 as the value. The rows were then filtered to only show data from California. After creating the bar-chart from this filtered data, it was then refined with some axis resizing.</p>
 <p>Visual Development:<br>
 Our team created an assertion-evidence slide that features the bar-chart that was created to answer this question, and the assertion statement in the heading.</p>
-<p>Assertion-Evidence Slide:<br>
-BarChart.png</p>
+<p>Assertion-Evidence Slide: Assertion-Evidence Slide:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="BarChart.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Bar chart of average listing prices by California city"><img src="BarChart.png" class="img-fluid figure-img" alt="Bar chart of average listing prices by California city"></a></p>
+<figcaption>Bar chart of average listing prices by California city</figcaption>
+</figure>
+</div>
 <p>**How are housing days on market distributed across individual property listings?**</p>
 <p>Why this question is interesting:<br>
 Analyzing the number of days a property is on the market can provide some valuable information about the area it is in, and the people who live there.</p>
@@ -179,8 +187,13 @@ Analyzing the number of days a property is on the market can provide some valuab
 The data was formatted such that each column is a year and each row is a month. This allows us to turn the 9 years of data into 9 lines making it easy to see trends by month and trends over years.</p>
 <p>Visual Development:<br>
 Our team created an assertion-evidence slide that features the times series graph that was created to answer this question, and the assertion statement in the heading.</p>
-<p>Assertion-Evidence Slide:<br>
-TimeSeries.png</p>
+<p>Assertion-Evidence Slide:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="TimeSeries.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Time series of days on market by month and year"><img src="TimeSeries.png" class="img-fluid figure-img" alt="Time series of days on market by month and year"></a></p>
+<figcaption>Time series of days on market by month and year</figcaption>
+</figure>
+</div>
 <p>**What relationship exists between mortgage interest rates for single-family homes with a 20% down payment and median single-family home prices across California cities?**</p>
 <p>Why this question is interesting:<br>
 This question showcases how expensive it is/ would be to buy a house in California, and even if you aren’t planning to move, it still provides some perspective on the cost of living in other areas, like Fayetteville, and a general idea of how mortgage price and house price might be correlated elsewhere.</p>
@@ -189,7 +202,13 @@ To answer this question, we uploaded the relevant data into an excel workbook, a
 <p>Visual Development:<br>
 Our team created an assertion-evidence slide that features the scatter-plot that was created to answer this question, and the assertion statement in the heading.</p>
 <p>Assertion-Evidence Slide:<br>
-ScatterPlot.png</p>
+</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="ScatterPlot.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Scatter plot of mortgage rate vs.&nbsp;median home price"><img src="ScatterPlot.png" class="img-fluid figure-img" alt="Scatter plot of mortgage rate vs.&nbsp;median home price"></a></p>
+<figcaption>Scatter plot of mortgage rate vs.&nbsp;median home price</figcaption>
+</figure>
+</div>
 
 
 
@@ -595,6 +614,38 @@ ScatterPlot.png</p>
   });
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

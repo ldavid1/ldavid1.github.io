@@ -32,8 +32,9 @@ To make this bar-chart, we started by creating a pivot table of the average list
 Visual Development:\
 Our team created an assertion-evidence slide that features the bar-chart that was created to answer this question, and the assertion statement in the heading.
 
-Assertion-Evidence Slide:\
-BarChart.png
+Assertion-Evidence Slide: Assertion-Evidence Slide:
+
+![Bar chart of average listing prices by California city](BarChart.png)
 
 \*\*How are housing days on market distributed across individual property listings?\*\*
 
@@ -46,8 +47,9 @@ The data was formatted such that each column is a year and each row is a month. 
 Visual Development:\
 Our team created an assertion-evidence slide that features the times series graph that was created to answer this question, and the assertion statement in the heading.
 
-Assertion-Evidence Slide:\
-TimeSeries.png
+Assertion-Evidence Slide:
+
+![Time series of days on market by month and year](TimeSeries.png)
 
 \*\*What relationship exists between mortgage interest rates for single-family homes with a 20% down payment and median single-family home prices across California cities?\*\*
 
@@ -61,4 +63,5 @@ Visual Development:\
 Our team created an assertion-evidence slide that features the scatter-plot that was created to answer this question, and the assertion statement in the heading.
 
 Assertion-Evidence Slide:\
-ScatterPlot.png
+
+![Scatter plot of mortgage rate vs. median home price](ScatterPlot.png)
