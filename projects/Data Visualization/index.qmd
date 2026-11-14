@@ -1,73 +1,49 @@
 ---
 title: "Data Visualization - The California Housing Market"
-name: "Melany Chavez"
-url: ""
-name: "Lifted David"
-url: "https://github.com/ldavid1"
-name: "Caleb Duncan"
-url: "https://caleb-duncan0719.github.io/"
-name: "Eleanor Suttle"
-url: "https://eleanorrsuttle.github.io/"
-name: "Anthony White"
-url: "https://awhite-thunder.github.io"
+date: “2026-11-13”
+image: Space Launches FINAL_page-1.jpg
+lightbox: true
 format: html
 ---
-For this project, our team utilized data from Zillow about the California housing market. We primarily looked at average days on the market, median sale prices over time, average listing prices, median mortgage rate, and median house prices across California.
- 
-**How did median home sale prices change in California before, during, and after the COVID-19 pandemic?**
- 
-Why this question is interesting:
-We all know that Covid had an impact on the housing market, but for those of us who were not in a place to worry about buying or selling a house for whatever reason during this time, it may be difficult to fully understand the impact that Covid had. Answering this question gives us a concrete visual of how California housing prices were affected by Covid.
- 
-Excel Analysis:
-Describe the specific Excel tools, functions, pivot tables, or formulas your team used to analyze the data and answer this question
- 
-Visual Development:
-Our team created an assertion-evidence slide that features the histogram that was created to answer this question, and the assertion statement in the heading.
-.
-Assertion-Evidence Slide:
-image of corresponding slideshow page
- 
-**Which California cities have the highest average listing prices?**
- 
-Why this question is interesting:
-A state as large as California has hundreds cities with varying populations and geographical characteristics. This question helps us look into how different factors affect housing prices, and allows us to compare these affects to other parts of the United States.
- 
-Excel Analysis:
-Our team created an assertion-evidence slide that features the bar-chart that was created to answer this question, and the assertion statement in the heading.
- 
-Visual Development:
-Describe how your team developed the visual for this slide
- 
-Assertion-Evidence Slide:
-image of corresponding slideshow page
- 
-**How are housing days on market distributed across individual property listings?**
- 
-Why this question is interesting:
-Explain why this question is interesting to you.
- 
-Excel Analysis:
-Describe how your team used Excel to answer this question
- 
-Visual Development:
-Our team created an assertion-evidence slide that features the times series graph that was created to answer this question, and the assertion statement in the heading.
- 
-Assertion-Evidence Slide:
-image of corresponding slideshow page
- 
-**What relationship exists between mortgage interest rates for single-family homes with a 20% down payment and median single-family home prices across California cities?**
- 
-Why this question is interesting:
-This question showcases how expensive it is/ would be to buy a house in California, and even if you aren't planning to move, it still provides some perspective on the cost of living in other areas, like Fayetteville, and a general idea of how mortgage price and house price might be correlated elsewhere.
- 
-Excel Analysis: 
-To answer this question, we uploaded the relevant data into an excel workbook, and used that data to create a dual-axis scatter plot showing how median mortgage rate and median house price relate to eachother across 26 different cities in California. Each Y-axis was then re-formatted to make the data easily readable.
- 
-Visual Development:
-Our team created an assertion-evidence slide that features the scatter-plot that was created to answer this question, and the assertion statement in the heading.
- 
-Assertion-Evidence Slide:
-image of corresponding slideshow page                  
----
 
+Team Members - [Caleb Duncan](https://caleb-duncan0719.github.io/) - [Eleanor Suttle](https://eleanorrsuttle.github.io/) - [Anthony White](https://awhite-thunder.github.io) - [Melany Chavez](https://) - [Lifted David](https://ldavid1.github.io/)
+
+For this project, our team utilized data from Zillow about the California housing market. We primarily looked at average days on the market, median sale prices over time, average listing prices, median mortgage rate, and median house prices across California.
+
+**How did median home sale prices change in California before, during, and after the COVID-19 pandemic?**
+
+Why this question is interesting: We all know that Covid had an impact on the housing market, but for those of us who were not in a place to worry about buying or selling a house for whatever reason during this time, it may be difficult to fully understand the impact that Covid had. Answering this question gives us a concrete visual of how California housing prices were affected by Covid.
+
+Excel Analysis: Describe the specific Excel tools, functions, pivot tables, or formulas your team used to analyze the data and answer this question
+
+Visual Development: Our team created an assertion-evidence slide that features the histogram that was created to answer this question, and the assertion statement in the heading. . Assertion-Evidence Slide: image of corresponding slideshow page
+
+**Which California cities have the highest average listing prices?**
+
+Why this question is interesting: A state as large as California has hundreds cities with varying populations and geographical characteristics. This question helps us look into how different factors affect housing prices, and allows us to compare these affects to other parts of the United States.
+
+Excel Analysis: Our team created an assertion-evidence slide that features the bar-chart that was created to answer this question, and the assertion statement in the heading.
+
+Visual Development: Describe how your team developed the visual for this slide
+
+Assertion-Evidence Slide: image of corresponding slideshow page
+
+**How are housing days on market distributed across individual property listings?**
+
+Why this question is interesting: Explain why this question is interesting to you.
+
+Excel Analysis: Describe how your team used Excel to answer this question
+
+Visual Development: Our team created an assertion-evidence slide that features the times series graph that was created to answer this question, and the assertion statement in the heading.
+
+Assertion-Evidence Slide: image of corresponding slideshow page
+
+**What relationship exists between mortgage interest rates for single-family homes with a 20% down payment and median single-family home prices across California cities?**
+
+Why this question is interesting: This question showcases how expensive it is/ would be to buy a house in California, and even if you aren't planning to move, it still provides some perspective on the cost of living in other areas, like Fayetteville, and a general idea of how mortgage price and house price might be correlated elsewhere.
+
+Excel Analysis: To answer this question, we uploaded the relevant data into an excel workbook, and used that data to create a dual-axis scatter plot showing how median mortgage rate and median house price relate to eachother across 26 different cities in California. Each Y-axis was then re-formatted to make the data easily readable.
+
+Visual Development: Our team created an assertion-evidence slide that features the scatter-plot that was created to answer this question, and the assertion statement in the heading.
+
+## Assertion-Evidence Slide: image of corresponding slideshow page 
