@@ -6,7 +6,7 @@ lightbox: true
 format: html
 ---
 
-Team Members - [Caleb Duncan](https://caleb-duncan0719.github.io/) - [Eleanor Suttle](https://eleanorrsuttle.github.io/) - [Anthony White](https://awhite-thunder.github.io) - [Melany Chavez](https://) - [Lifted David](https://ldavid1.github.io/)
+Team Members - [Caleb Duncan](https://caleb-duncan0719.github.io/) - [Eleanor Suttle](https://eleanorrsuttle.github.io/) - [Anthony White](https://awhite-thunder.github.io) - [Melany Chavez](https://melchacas.github.io) - [Lifted David](https://ldavid1.github.io/)
 
 For this project, our team utilized data from Zillow about the California housing market. We primarily looked at average days on the market, median sale prices over time, average listing prices, median mortgage rate, and median house prices across California.
 
@@ -15,11 +15,13 @@ For this project, our team utilized data from Zillow about the California housin
 Why this question is interesting:\
 We all know that Covid had an impact on the housing market, but for those of us who were not in a place to worry about buying or selling a house for whatever reason during this time, it may be difficult to fully understand the impact that Covid had. Answering this question gives us a concrete visual of how California housing prices were affected by Covid.
 
-Excel Analysis:
+Excel Analysis: To make the chart we started by taking the Median Price data and filtering out all other states except CA. The median was calculated to see the average change. The x-axis was built using the median prices for 26 California cities. Taking the square root we arrived at 6 bins for the x-axis. The data runs from \$350K to \$1.59M, a range of \$1.24M. A bin width of \$250,000 gives 6 bins.
 
-Visual Development:
+Visual Development: Our team created an assertion-evidence slide that features the histogram chart that was created to answer this question, and the assertion statement in the heading.
 
 Assertion-Evidence Slide:
+
+![Bar chart of average listing prices by California city](BarChart.png)
 
 \*\*Which California cities have the highest average housing prices?\*\*
 
@@ -34,7 +36,7 @@ Our team created an assertion-evidence slide that features the bar-chart that wa
 
 Assertion-Evidence Slide: Assertion-Evidence Slide:
 
-![Bar chart of average listing prices by California city](BarChart.png)
+![Histogram of California median home sale before, during, and after COVID-19](Histogram.png)
 
 \*\*How are housing days on market distributed across individual property listings?\*\*
 
